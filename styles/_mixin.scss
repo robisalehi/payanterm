@@ -1,0 +1,15 @@
+@mixin parent_width(){
+    max-width: 1140px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+@media screen and (max-width:1024px){
+    max-width: 800px;
+}
+
+@media screen and (max-width:900px){
+    max-width: 90vw;
+}
+}
